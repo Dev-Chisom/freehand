@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa !important;
+}
+.pb{
+    padding-bottom: 2rem;
+}
+.pt{
+    padding-top: 1rem;
+}
+.mt{
+    margin-top: 4rem ;
+}
+.mb{
+    margin-bottom: 4rem;
+}
+h2{
+    font-size: 3rem;
+    color: #16133D;
+}
+li a{
+    font-family: 'Roboto', sans-serif;
+    color: #16133D;
+    padding: 8px 5px;
+   
+}
+ul li{
+    padding: 0 10px;
+    list-style: none;
+}
+.signin{
+    width: fit-content;
+    margin: 6px 10px;
+    border: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:  30px;
+    padding-left:  30px;
+    border-radius: 5px;
+}
+.login{
+    width: fit-content;
+    margin: 6px 10px;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2rem;
+    padding-left:  2rem;
+    border-radius: 5px;
+    background-color: #16133D;
+}
+.freehand{
+    margin-top: 2rem;
+}
+.freehand h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #16133D;
+}
+.freehand p{
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: #16133D;
+}
+.landing{
+    padding: 0 18px;
+}
+ .img{
+    background-image: url(./images/landing.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-left: 2rem;
+    border-radius: 10px;
+}
+.img .arrow-1{
+    position: absolute;
+    top: 12rem;
+    left: -25px;
+    width: 3rem;
+    height: 3rem;
+    background: #16133D;
+    
+}
+.img .arrow-2{
+    position: absolute;
+    top: 12rem;
+    right: -25px;
+    width: 3rem;
+    height: 3rem;
+    transform: rotate(180deg);
+    background: #16133D;
+}
+.group-1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    margin: 5px 20px;
+    background-image: url(./images/Group\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+.group-2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    margin: 5px 20px;
+    background-image: url(./images/Group\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+.group-3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    margin: 5px 20px;
+    background-image: url(./images/Group\ 3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+  
+}
+.features h4{
+    padding-top: 200px; 
+    font-size: 2rem;
+}
+.left-2{
+    background: url(./images/left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 400px;
+    margin-right: 2rem;
+}
+.right-1{
+    background: url(./images/right.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 400px;
+    margin-right: 2rem;
+    text-align: center;
+}
+.card-green{
+    border-top: 2px solid #008000;
+}
+.card-red{
+    border-top: 2px solid #c00404;
+}
+.card-blue{
+    border-top: 2px solid #0674cf;
+}
+.demo{
+    background: url(./images/section3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 400px;
+    margin: 2rem 2rem;
+    border-radius: 9px;
+}
+.demo-text{
+    text-align: center;
+    padding: 100px 0;
+}
+.main-footer{
+    position: sticky;
+    background-color: #16133D;
+    color: #efeef3;
+    width: 100%;
+    min-height: 500px;
+    margin: 7rem 0 10px 0;
+    border-radius: 10px;
+   
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem 2rem 0 2rem;
+}
+.design p{
+    font-size: 1rem;
+    padding: 12px 0 12px 0;
+}
+.design .box{
+    padding: 5px;
+    background: #efeef3;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4px;
+}
+.company-items>ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.list-content>li{
+    font-size: .8rem;
+    padding: 12px 0 12px 0;
+    margin-right: 2rem;
+}
+
+.copy{
+    text-align: center;
+    margin: 10rem 0 0 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .freehand{
+        margin-top: 1rem;
+    }
+    .freehand h1{
+        font-size: 2.2rem;
+        line-height: 1.3;
+        
+    }
+    .freehand p{
+        font-size: 1rem;
+        line-height: 1.4;
+      
+    }
+    .landing{
+        margin-top: 2rem;
+        padding: 0 18px;
+    }
+    .img{
+        height: 300px;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+    .img .arrow-1{
+        top: 9rem;
+        left: -23px;
+        width: 2rem;
+        height: 2rem;   
+    }
+    .img .arrow-2{
+        top: 9rem;
+        right: -23px;
+        width: 2rem;
+        height: 2rem;
+    }
+    .card{
+        margin-top: 1rem;
+    }
+    .features{
+        grid-template-columns: auto;
+      
+    }
+    .features h4{
+        font-size: 1.3rem;
+    }
+    .demo{
+        margin: 1rem 1rem;
+    }
+    .demo-text h2{
+        font-size: 1.3rem;
+    }
+    .design{
+        margin-bottom: 2rem;
+    }
+    .design p{
+        font-size: .9rem;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 2rem 2rem 0 2rem;
+    }
+    .company-items>ul{
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .list>li{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .copy{
+        text-align: center;
+        margin: 5rem 0 0 0;
+        display: none;
+    }
+    .main-footer{
+        min-height: 900px;
+    }
+    footer{
+        text-align: center;
+    }
+    
+}
