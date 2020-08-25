@@ -9,6 +9,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa !important;
+    overflow-x: hidden;
 }
 .pb{
     padding-bottom: 2rem;
